@@ -63,7 +63,7 @@
 
 /* info */
 .home-info {
-  height: 50vh;
+  height: 400px;
 }
 
 .home-info .info-img {
@@ -76,6 +76,7 @@
 .home-info .info-content {
   float: left;
   width: 50%;
+  height: 100%;
   text-align: center;
   padding: 50px 30px;
   overflow: hidden;
@@ -83,4 +84,24 @@
 
 .home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box .icon-inner {
+  margin-bottom: 10px;
+}
+
+/* footer */
+.main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
