@@ -49,6 +49,11 @@ p {
   color: #93cb52;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -193,4 +198,39 @@ p {
 
 #who .who-img {
   background: url("../images/people.jpg") no-repeat center center/cover;
+}
+
+/* clients */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/* contact */
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem 0;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
