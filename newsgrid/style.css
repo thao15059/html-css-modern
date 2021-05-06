@@ -177,6 +177,10 @@ p {
   margin: 0.5rem 0;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 .list li {
   padding: 0.5rem 0;
   border-bottom: #555 dotted 1px;
@@ -343,4 +347,17 @@ p {
 #main-footer .footer-container input[type="submit"] {
   width: 90%;
   padding: 0.5rem;
+}
+
+/* articles */
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-bottom: 0;
 }
