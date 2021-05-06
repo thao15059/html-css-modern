@@ -250,6 +250,12 @@ p {
 #main-nav .social a > i {
   color: #777;
   padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#main-nav .social a:hover > i {
+  color: #dbbe98;
+  transform: scale(1.1);
 }
 
 /* showcase */
