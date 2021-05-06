@@ -173,6 +173,32 @@ h6 {
   text-align: center;
 }
 
+p {
+  margin: 0.5rem 0;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+}
+.list li a {
+  transition: all 0.3s ease-in;
+}
+
+.list li a:hover {
+  color: var(--primary-color) !important;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  gap: 1rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 6;
+}
+
 /* nav */
 #main-nav {
   background: #fff;
@@ -274,4 +300,47 @@ h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* footer */
+#main-footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+#main-footer img {
+  width: 150px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+#main-footer .footer-container > div:last-child {
+  grid-column: 1 / span 4;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#main-footer .footer-container input[type="email"] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+#main-footer .footer-container input[type="email"]:focus {
+  outline: none;
+}
+
+#main-footer .footer-container input[type="submit"] {
+  width: 90%;
+  padding: 0.5rem;
 }
